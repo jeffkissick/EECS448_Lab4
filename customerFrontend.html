@@ -1,0 +1,68 @@
+<html>
+    <head>
+    <title> Keroro Plamo Shope </title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script type="text/javascript"
+    src="formChecker.js">
+</script>
+    </head>
+<body style="background-color: lightgray">
+    <p>Pease Select Quantity (0-9):</p>
+    
+    <form onsubmit="return formCheck()" action="customerBackend.php" method="post">
+
+    <div class="images">
+        <div class="kero">
+        <img class="kero" src="images/item1.jpg">
+        <b style="padding-right: 10px">Keroro   $125.00</b><input type="text" id="kero" class="kero" name="item1" maxlength="1">
+        </div>
+
+        <div class="tama">
+        <img class="tama" src="images/item2.jpg">
+        <b style="padding-right: 10px">Tamama   $85.00</b><input type="text" id="tama" class="tama" name="item2" maxlength="1">
+        </div>
+
+        <div class="giro">
+        <img class="giro" src="images/item3.jpg">
+        <b style="padding-right: 10px">Giroro   $100.00</b><input type="text" id="giro" class="giro" name="item3" maxlength="1">
+        </div>
+
+        <div class="kuru">
+        <img class="kuru" src="images/item4.jpg">
+        <b style="padding-right: 10px">Kururu   $100.00</b><input type="text" id="kuru" class="kuru" name="item4" maxlength="1">
+        </div>
+
+        <div class="doro">
+        <img class="doro" src="images/item5.jpg">
+        <b style="padding-right: 10px">Dororo   $85.00</b><input type="text" id="doro" class="doro" name="item5" maxlength="1">
+        </div>
+    </div>
+
+    <br><br><br><br>
+    <div class="inputfields">
+       <div class="uname">
+       Please Provide a Username and Password: <br>
+       <label style="font-size: 90%">Username: </label><br><input type="text" id="uname" name="uname" value=""><br>
+       <label style="font-size: 90%">Password: </label><br><input type="password" id="pass" name="pass" value=""><br>
+       </div>
+      
+       <div class="shipping">
+       Please Select Your Preferred Shipping Method:<br>
+      <input type="radio" name="shipping" value="Free 7 Day" id="ship1"
+      style="vertical-align: sub"> <label style="font-size: 90%"> Free 7 Day</label> <br>
+      <input type="radio" name="shipping" value="Overnight" id="ship2"
+      style="vertical-align: sub"><label style="font-size: 90%"> $50.00 Overnight</label> <br>
+      <input type="radio" name="shipping" value="Three Day" id="ship3"
+      style="vertical-align: sub"><label style="font-size: 90%"> $5.00 Three Day </label>
+      </div>
+
+      <div class="buttons">
+      <input type="reset" value="Reset">
+      <input type="submit" value="Submit" style="font-weight: bold">
+      </div>
+
+    </div>
+    
+    </form>
+</body>
+</html>

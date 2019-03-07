@@ -1,0 +1,140 @@
+div.images
+{
+    display: inline-block;
+}
+img.kero
+{
+    float:left;
+    height:200px;
+    width:150px;
+    padding-bottom:5px;
+    padding-right: 5px;
+    position: relative;
+}
+input.kero
+{
+    width:8px;
+    box-sizing: content-box;
+}
+div.kero
+{
+    float:left;
+    height:200px;
+    width:150px;
+    text-align: center;
+    padding-right: 5px;
+}
+img.tama
+{
+    padding-right: 5px;
+    float:left;
+    height:200px;
+    width:200px;
+    padding-bottom:5px;
+    position: relative;
+}
+input.tama
+{
+    width:8px;
+    box-sizing: content-box;
+}
+div.tama
+{
+    padding-right: 5px;
+    float:left;
+    height:200px;
+    width:200px;
+    text-align: center;
+}
+img.giro
+{
+    padding-right: 5px;
+    float:left;
+    height:200px;
+    width:200px;
+    padding-bottom:5px;
+    position: relative;
+}
+div.giro
+{
+    padding-right: 5px;
+    float:left;
+    height:200px;
+    width:200px;
+    text-align: center;
+}
+input.giro
+{
+    width:8px;
+    box-sizing: content-box;
+}
+img.kuru
+{
+    padding-right: 5px;
+    float:left;
+    height:200px;
+    width:200px;
+    padding-bottom:5px;
+    position: relative;
+}
+div.kuru
+{
+    padding-right: 5px;
+    float:left;
+    height:200px;
+    width:200px;
+    text-align: center;
+}
+input.kuru
+{
+    width:8px;
+    box-sizing: content-box;
+}
+img.doro
+{
+    padding-right: 5px;
+    float:left;
+    height:200px;
+    width:200px;
+    padding-bottom:5px;
+    position: relative;
+}
+div.doro
+{
+    padding-right: 5px;
+    float:left;
+    height:200px;
+    width:200px;
+    text-align: center;
+}
+input.doro
+{
+    width:8px;
+    box-sizing: content-box;
+}
+
+div.inputfields
+{
+    display:inline-block;
+}
+div.uname
+{
+    float:left;
+    padding:5px;
+    position:relative;
+}
+div.shipping
+{
+    float:left;
+    padding:5px;
+    padding-left: 100px;
+    position:relative;
+}
+div.buttons
+{
+    float:left;
+    padding:10px;
+    padding-left:100px;
+    position:relative;
+    padding-top: 50px;
+}
