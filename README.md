@@ -1,5 +1,4 @@
-# EECS448_Lab4
-# Jeff Kissick
+# EECS448 Lab 4
 
 Can be viewed at: people.eecs.ku.edu/~jkissick - under Lab 4 exercises
 
